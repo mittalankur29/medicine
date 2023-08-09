@@ -1562,6 +1562,16 @@ select {
   border-top-right-radius: 0.5rem;
 }
 
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
 .rounded-tl {
   border-top-left-radius: 0.25rem;
 }
@@ -1604,6 +1614,10 @@ select {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border {
@@ -2943,8 +2957,16 @@ select {
   right: 0px;
 }
 
+.right-80 {
+  right: 80px;
+}
+
 .bottom-0 {
   bottom: 0px;
+}
+
+.bottom-30 {
+  bottom: 30px;
 }
 
 .left-0 {
@@ -3001,6 +3023,10 @@ select {
 
 .left-40-px {
   left: 40px;
+}
+
+.left-80-px {
+  left: 80px;
 }
 
 .top-95-px {
@@ -3757,6 +3783,11 @@ select {
 .animate-spin {
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
+}
+
+.animate-bounce {
+  -webkit-animation: bounce 1s linear infinite;
+          animation: bounce 1s linear infinite;
 }
 
 @media (min-width: 640px) {
