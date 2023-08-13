@@ -16,41 +16,50 @@ export default function Index() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('/img/banner.jpg')",
+                "url('/img/banner-2.png')",
             }}
           >
-            <span
-              id="blackOverlay"
-              className="w-1/2 h-full absolute opacity-75"
-              style={{
-                backgroundImage:
-                  "url('/img/hero-shadow.png')",
-              }}
-            ></span>
           </div>
-          <div className="container relative mx-auto">
-            <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
-                  <h1 className="text-lightBlue-600 font-bold text-5xl">
-                  VIGRA CONNECT
-                  </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
-                  A medical strength male enhancement.
-                  </p>
-                  <div className="mt-6">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
-                  className="get-started text-white font-bold px-12 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                >
-                  Buy Now
-                </a>
-              </div>
+        <div className="container relative mx-auto">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full lg:w-6/12 px-4 mr-auto my-auto mt-6">
+              <div className="pr-12">
+                <h1 className="text-lightBlue-600 font-bold text-6xl">
+                  VIGRA HOME
+                </h1>
+                <div class="flex flex-wrap items-top mb-6">
+                  <div class="w-full lg:w-4/12">
+                    <div class="flex flex-wrap">
+                    <h2 className="font-bold text-4xl text-white mt-6">LONGER</h2>
+                      <span class="text-bold text-4xl">STAMINA</span>
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12">
+                    <div class="flex flex-wrap">
+                    <h2 className="font-bold text-4xl text-white mt-6">HARDER</h2>
+                      <span class="text-bold text-4xl">ERECTION</span>
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12">
+                    <div class="flex flex-wrap">
+                    <h2 className="font-bold text-4xl text-white mt-6">STRONGER</h2>
+                      <span class="text-bold text-4xl">PERFORMANCE</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-12">
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
+                    target="_blank"
+                    className="get-started text-white font-bold px-12 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  >
+                    Buy Now Viagra Home
+                  </a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
           
         </div>
       {/* <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
@@ -59,7 +68,7 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-lightBlue-600">
-                VIGRA CONNECT - A medical strength male enhancement.
+                VIGRA Home - A medical strength male enhancement.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 Notus NextJS is Free and Open Source. It does not change any of
@@ -95,10 +104,10 @@ export default function Index() {
         />
       </section> */}
 
-      <section className="pb-20 relative bg-lightBlue-600">
+      <section className="pb-20 relative">
       
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          className="-mt-48 top-0 bottom-auto left-0 right-0 w-full absolute h-24"
           style={{ transform: "translateZ(0)" }}
         >
         <div className="container mx-auto items-center flex flex-wrap">
@@ -117,27 +126,14 @@ export default function Index() {
             </div>
           </div>
         </div>
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-lightBlue-600 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
+          
         </div>
 
         </section>
 
       <section className="mt-48 md:mt-40 pb-40 relative bg-white">
       <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase">
-                Vigra connect Dosages
+                Vigra Home Dosages
               </h2>
         <div className="container table-card-border border-8 mx-auto mt-8">
           <div className="home-outline flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 px-6 relative">
@@ -175,7 +171,7 @@ export default function Index() {
         </div>
         <div className="container mx-auto mt-32">
         <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase">
-                    Benifit of VIGRA Connect
+                    Benifit of VIGRA Home
                   </h2>
           <div className="flex flex-wrap items-center">
           
@@ -199,10 +195,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h2 className="text-xl font-bold text-white">
-                    Benifit of VIGRA Connect
+                    Benifit of VIGRA Home
                   </h2>
                   <p className="text-md font-light mt-2 text-white">
-                  Vigra Connect Male Enhancement System offers multiple sexual health benefits to help you enjoy hard erections, increased stamina and peak performance.
+                  Vigra Home Male Enhancement System offers multiple sexual health benefits to help you enjoy hard erections, increased stamina and peak performance.
                   </p>
                 </blockquote>
               </div>
@@ -258,7 +254,7 @@ export default function Index() {
                       </div>
                       <h6 className="text-2xl mb-1 font-bold text-lightBlue-600">INCREASED PENIS SIZE</h6>
                       <p className="mb-4 text-blueGray-500">
-                      Regular use of Vigra Connect may lead to successive delivery of blood to the penis, which may help increase penis size.
+                      Regular use of Vigra Home may lead to successive delivery of blood to the penis, which may help increase penis size.
                       </p>
                     </div>
                   </div>
@@ -275,7 +271,7 @@ export default function Index() {
                       SUPPORT TESTOTERONE
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Vigra Connect formula contains natural testosterone enhancing ingredients for an enhanced sex life.
+                        Vigra Home formula contains natural testosterone enhancing ingredients for an enhanced sex life.
                       </p>
                     </div>
                   </div>
@@ -335,7 +331,11 @@ export default function Index() {
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-drafting-compass text-xl"></i>
+              <img
+                  alt="..."
+                  src="/img/icons/icon-10.svg"
+                  className="w-full"
+                />
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
               Erection problems can impact any relationship, but treating them has never been easier now medications are over the counter
@@ -370,7 +370,7 @@ export default function Index() {
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
               <h3 className="font-bold text-5xl text-lightBlue-600">
-                Try Vigra Connect Today and Boost Your Performance
+                Try Vigra Home Today and Boost Your Performance
               </h3>
               
               <div className="sm:block flex flex-col mt-10">
@@ -380,30 +380,30 @@ export default function Index() {
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i class="fa fa-cart-arrow-down mr-2 text-white"></i>
-                  <span>Buy Vigra Connect Now</span>
+                  <span>Buy Vigra Home Now</span>
                 </a>
               </div>
               <div className="w-1/2 text-center mx-auto mt-10">
                 <div className="flex flex-wrap items-top mb-6">
-                  <div className="w-full lg:w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 px-4 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-clock mx-auto text-5xl text-lightBlue-600"></i>
                     <span className="text-bold">2 min Purchase</span>
                     </div>
                   </div>
-                  <div className="w-full lg:w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 px-4 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-shipping-fast mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Free Shipping</span>
                     </div>
                   </div>
-                  <div className="w-full lg:w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 px-4 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-vote-yea mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Trusted Product</span>
                     </div>
                   </div>
-                  <div className="w-full lg:w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 px-4 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-people-carry mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Safe Packaging</span>

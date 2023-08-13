@@ -2292,6 +2292,11 @@ select {
   margin-right: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -2526,6 +2531,10 @@ select {
 
 .min-h-screen-75 {
   min-height: 75vh;
+}
+
+.min-h-screen-90 {
+  min-height: 90vh;
 }
 
 .min-w-0 {
@@ -2875,6 +2884,10 @@ select {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .pt-24 {
@@ -3569,6 +3582,10 @@ select {
 
 .w-auto {
   width: auto;
+}
+
+.w-3\/12 {
+  width: 25%;
 }
 
 .w-1\/2 {
