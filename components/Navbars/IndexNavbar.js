@@ -42,7 +42,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index-navbar"
+                  href="sms:[2134782761]&body=[Hi Viagra Home, I am interested in buying Viagra Home. Ho can I get started?]"
                 >
                   <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" />{" "}
                   Docs
@@ -53,32 +53,32 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index-navbar"
+                  href="https://instagram.com/"
                   target="_blank"
                 >
                   <i className="text-white fab fa-instagram text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Star</span>
+                  <span className="lg:hidden inline-block ml-2">Follow us Instagram</span>
                 </a>
               </li>
 
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://instagram.com/"
+                  href="https://web.whatsapp.com/send?phone= +1213-948-2161&amp;text=Hi, Please share your query and our team will connect with you soon!!Thanks"
                   target="_blank"
                 >
                   <i className="text-white fab fa-whatsapp text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Star</span>
+                  <span className="lg:hidden inline-block ml-2">Whatsapp</span>
                 </a>
               </li>
 
               <li className="flex items-center">
-                <button
+                <a
                   className="bg-white hover:text-lightBlue-600 text-blueGray-700 active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
+                  href="#orderList"
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Buy Now
-                </button>
+                  <i className="fas fa-arrow-alt-circle-down"></i> Buy Viagra Home Now
+                </a>
               </li>
             </ul>
           </div>

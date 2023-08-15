@@ -6,12 +6,10 @@
 }
 .table-card-border {
     border-color: #0284c7;
-    border-width: 30px;
     border-radius: 100px;
 }
 .home-outline {
     width: 100%;
     border-color: #228ec0;
-    border-width: 20px;
     border-radius: 70px;
   }

@@ -26,12 +26,7 @@ class MyDocument extends Document {
           href="/img/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/img/favicon/site.webmanifest" />
-          {/* <link rel="shortcut icon" href="/img/brand/favicon.ico" />
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/img/brand/apple-icon.png"
-          /> */}
+          {/* <link rel="shortcut icon" href="/img/brand/favicon.ico" /> */}
         </Head>
         <body className="text-blueGray-700 antialiased">
           <div id="page-transition"></div>

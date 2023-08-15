@@ -5,7 +5,7 @@ import Link from "next/link";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import Whatsapp from "components/whatsapp/whatsapps.js"
-import RateTable from "components/Cards/RateTable25mg.js";
+import RateTable25 from "components/Cards/RateTable25mg.js";
 
 export default function Index() {
   return (
@@ -28,84 +28,32 @@ export default function Index() {
                   VIGRA HOME
                 </h1>
                 <div class="flex flex-wrap items-top mb-6">
-                  <div class="w-full lg:w-4/12">
-                    <div class="flex flex-wrap">
-                    <h2 className="font-bold text-4xl text-white mt-6">LONGER</h2>
-                      <span class="text-bold text-4xl">STAMINA</span>
+                  <div class="w-4/12">
+                    <div class="flex flex-wrap text-2xl md:text-4xl">
+                    <h2 className="font-bold text-white mt-6">LONGER</h2>
+                      <span class="text-lightBlue-600 font-extrabold">STAMINA</span>
                     </div>
                   </div>
-                  <div class="w-full lg:w-4/12">
-                    <div class="flex flex-wrap">
-                    <h2 className="font-bold text-4xl text-white mt-6">HARDER</h2>
-                      <span class="text-bold text-4xl">ERECTION</span>
+                  <div class="w-4/12">
+                    <div class="flex flex-wrap text-2xl md:text-4xl">
+                    <h2 className="font-bold text-white mt-6">HARDER</h2>
+                      <span class="text-lightBlue-600 font-extrabold">ERECTION</span>
                     </div>
                   </div>
-                  <div class="w-full lg:w-4/12">
-                    <div class="flex flex-wrap">
-                    <h2 className="font-bold text-4xl text-white mt-6">STRONGER</h2>
-                      <span class="text-bold text-4xl">PERFORMANCE</span>
+                  <div class="w-4/12">
+                    <div class="flex flex-wrap text-2xl md:text-4xl">
+                    <h2 className="font-bold text-white mt-6">STRONGER</h2>
+                      <span class="text-lightBlue-600 font-extrabold ">PERFORMANCE</span>
                     </div>
                   </div>
-                </div>
-                <div className="mt-12">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                    target="_blank"
-                    className="get-started text-white font-bold px-12 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                  >
-                    Buy Now Viagra Home
-                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-          
         </div>
-      {/* <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
-        
-        <div className="container mx-auto items-center flex flex-wrap">
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-            <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-lightBlue-600">
-                VIGRA Home - A medical strength male enhancement.
-              </h2>
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Notus NextJS is Free and Open Source. It does not change any of
-                the CSS from{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-blueGray-600"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Tailwind CSS
-                </a>
-                . It features multiple HTML elements and it comes with dynamic
-                components for ReactJS, Vue and Angular.
-              </p>
-              <div className="mt-12">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                >
-                  Get started
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          src="/img/threepacks-min_1_0.png"
-          alt="..."
-        />
-      </section> */}
 
       <section className="pb-20 relative">
-      
         <div
           className="-mt-48 top-0 bottom-auto left-0 right-0 w-full absolute h-24"
           style={{ transform: "translateZ(0)" }}
@@ -118,12 +66,15 @@ export default function Index() {
           alt="..."
         />
         </div>
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12">
-            <div className="sm:pt-0">
-              <h2 className="font-bold text-3xl text-white">
-                Longer Stamina | Harder Erection | Stronger Performance
-              </h2>
-            </div>
+          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 text-center md:hidden">
+          <div className="mt-12">
+                  <a
+                    href="#orderList"
+                    className="get-started text-white font-bold px-12 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  >
+                    Buy Now Viagra Home
+                  </a>
+                </div>
           </div>
         </div>
           
@@ -131,79 +82,22 @@ export default function Index() {
 
         </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-white">
-      <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase">
+      <section id="orderList" className="mt-24 pb-40 relative bg-white">
+        <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
                 Vigra Home Dosages
               </h2>
-        <div className="container table-card-border border-8 mx-auto mt-8">
-          <div className="home-outline flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 px-6 relative">
+        <div className="container table-card-border md:border-30 mx-auto mt-8">
+          <div className="home-outline md:border-20 flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 px-6 relative">
                 <div className="w-full mt-6">
-                  <RateTable />
+                  <RateTable25 />
                 </div>
-
-              {/* <table class="table-auto">
-                <thead>
-                  <tr>
-                    <th>Song</th>
-                    <th>Artist</th>
-                    <th>Year</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                    <td>Malcolm Lockyer</td>
-                    <td>1961</td>
-                  </tr>
-                  <tr>
-                    <td>Witchy Woman</td>
-                    <td>The Eagles</td>
-                    <td>1972</td>
-                  </tr>
-                  <tr>
-                    <td>Shining Star</td>
-                    <td>Earth, Wind, and Fire</td>
-                    <td>1975</td>
-                  </tr>
-                </tbody>
-              </table> */}
           </div>
         </div>
         <div className="container mx-auto mt-32">
-        <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase">
+        <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
                     Benifit of VIGRA Home
                   </h2>
           <div className="flex flex-wrap items-center">
-          
-            {/* <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-600">
-                <img
-                  alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
-                  className="w-full align-middle rounded-t-lg"
-                />
-                <blockquote className="relative p-8 mb-4">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block h-95-px -top-94-px"
-                  >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      className="text-blueGray-700 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h2 className="text-xl font-bold text-white">
-                    Benifit of VIGRA Home
-                  </h2>
-                  <p className="text-md font-light mt-2 text-white">
-                  Vigra Home Male Enhancement System offers multiple sexual health benefits to help you enjoy hard erections, increased stamina and peak performance.
-                  </p>
-                </blockquote>
-              </div>
-            </div> */}
-
             <div className="w-full px-4">
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
@@ -282,7 +176,6 @@ export default function Index() {
         </div>
 
         <div className="container mx-auto overflow-hidden pb-20 mt-48">
-        
           <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase">
           <div className="text-blueGray-500 p-4 text-center inline-flex items-center justify-center w-16 h-16 rounded-full bg-white">
               <img
@@ -375,7 +268,7 @@ export default function Index() {
               
               <div className="sm:block flex flex-col mt-10">
                 <a
-                  href="/"
+                  href="#orderList"
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
