@@ -11,7 +11,13 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen">
+      <div>
+        <img 
+        className="mx-auto max-w-full h-auto block mt-5"
+        src="/img/banner-3.jpg"
+        />
+      </div>
+      {/* <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
@@ -51,22 +57,13 @@ export default function Index() {
             </div>
           </div>
         </div>
-        </div>
+        </div> */}
 
       <section className="pb-20 relative">
-        <div
-          className="-mt-48 top-0 bottom-auto left-0 right-0 w-full absolute h-24"
-          style={{ transform: "translateZ(0)" }}
-        >
+        
         <div className="container mx-auto items-center flex flex-wrap">
-        <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 z-2">
-          <img
-          className="sm:mt-0 max-h-860-px"
-          src="/img/threepacks-min_1_0.png"
-          alt="..."
-        />
-        </div>
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 text-center md:hidden">
+        
+          <div className="w-full text-center">
           <div className="mt-12">
                   <a
                     href="#orderList"
@@ -78,7 +75,6 @@ export default function Index() {
           </div>
         </div>
           
-        </div>
 
         </section>
 

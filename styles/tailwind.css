@@ -1417,6 +1417,10 @@ select {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-center-75 {
+  background-position: 75%;
+}
+
 .bg-center {
   background-position: center;
 }
