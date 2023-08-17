@@ -78,7 +78,7 @@ export default function Index() {
 
         </section>
 
-      <section id="orderList" className="mt-24 pb-40 relative bg-white">
+      <section id="orderList" className="pb-40 relative bg-white">
         <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
                 Vigra Home Dosages
               </h2>

@@ -11,24 +11,24 @@ import TableDropdown from "components/Dropdowns/TableDropdown.js";
 function Dataprop(prop){
   return (
       <tr>
-        <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
+        <th className="border-t-0 px-2 md-px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
           <span className="ml-3 font-bold ">
             {prop.name}
           </span>
         </th>
-        <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
           {prop.pill}
         </td>
-        <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
           {prop.savings}
         </td>
-        <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
           ${prop.price}
         </td>
-        <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
           ${prop.cost}
         </td>
-        <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
           <div className="flex items-center">
           <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
             Order Now
@@ -48,7 +48,7 @@ export default function CardTable({ color }) {
           (color === "light" ? "bg-white" : "bg-blueGray-700 text-white")
         }
       >
-        <div className="rounded-t mb-0 px-4 py-3 border-0">
+        <div className="rounded-t mb-0 md-px-4 py-3 border-0">
           <div className="flex flex-wrap items-center">
             <div className="relative w-full px-4 max-w-full flex-grow flex-1">
               <h3
@@ -57,7 +57,7 @@ export default function CardTable({ color }) {
                   (color === "light" ? "text-blueGray-700" : "text-white")
                 }
               >
-                Viagra 25mg
+                Viagra 50mg
               </h3>
             </div>
           </div>
@@ -69,37 +69,37 @@ export default function CardTable({ color }) {
               <tr>
                 <th
                   className={
-                    "px-6 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left rounded-l-lg " +
+                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left rounded-l-lg " +
                     (color === "light"
                       ? "bg-lightBlue-600 text-white"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Product Name
+                  Product
                 </th>
                 <th
                   className={
-                    "px-6 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
+                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
                     (color === "light"
                       ? "bg-lightBlue-600 text-white"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Per Pill
+                  Pill
                 </th>
                 <th
                   className={
-                    "px-6 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
+                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
                     (color === "light"
                       ? "bg-lightBlue-600 text-white"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Saving(only Today)
+                  Saving
                 </th>
                 <th
                   className={
-                    "px-6 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
+                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
                     (color === "light"
                       ? "bg-lightBlue-600 text-white"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
@@ -109,17 +109,17 @@ export default function CardTable({ color }) {
                 </th>
                 <th
                   className={
-                    "px-6 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
+                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
                     (color === "light"
                       ? "bg-lightBlue-600 text-white"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Discounted Price
+                  Discount
                 </th>
                 <th
                   className={
-                    "px-6 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
+                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
                     (color === "light"
                       ? "bg-lightBlue-600 text-white"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
