@@ -13,7 +13,7 @@ export default function Index() {
       <IndexNavbar fixed />
       <div>
         <img 
-        className="mx-auto max-w-full h-auto block mt-5"
+        className="mx-auto max-w-full h-auto block"
         src="/img/banner-3.jpg"
         />
       </div>
@@ -67,7 +67,7 @@ export default function Index() {
           <div className="mt-12">
                   <a
                     href="#orderList"
-                    className="get-started text-white font-bold px-12 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    className="animate-pulseb get-started text-white font-bold px-12 py-8 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   >
                     Buy Now Viagra Home
                   </a>
@@ -83,7 +83,7 @@ export default function Index() {
                 Vigra Home Dosages
               </h2>
         <div className="container table-card-border md:border-30 mx-auto mt-8">
-          <div className="home-outline md:border-20 flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 px-6 relative">
+          <div className="home-outline md:border-20 flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 md:px-10 relative">
                 <div className="w-full mt-6">
                   <RateTable25 />
                 </div>
@@ -109,7 +109,7 @@ export default function Index() {
                       <h4 className="text-2xl mb-1 font-bold text-lightBlue-600">
                       LONGER STAYING POWER
                       </h4>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-500 text-xl px-12">
                       Boosts the penis's blood holding capacity, delaying ejaculations to help you last long during sexual encounters.
                       </p>
                     </div>
@@ -126,7 +126,7 @@ export default function Index() {
                       <h6 className="text-2xl mb-1 font-bold text-lightBlue-600">
                       ENHANCED PERFORMANCE
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-500 text-xl px-12">
                       You can experience heightened pleasure and improved performance every time.
                       </p>
                     </div>
@@ -143,7 +143,7 @@ export default function Index() {
                         ></img>
                       </div>
                       <h6 className="text-2xl mb-1 font-bold text-lightBlue-600">INCREASED PENIS SIZE</h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-500 text-xl px-12">
                       Regular use of Vigra Home may lead to successive delivery of blood to the penis, which may help increase penis size.
                       </p>
                     </div>
@@ -160,7 +160,7 @@ export default function Index() {
                       <h6 className="text-2xl mb-1 font-bold text-lightBlue-600">
                       SUPPORT TESTOTERONE
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-500 text-xl px-12">
                         Vigra Home formula contains natural testosterone enhancing ingredients for an enhanced sex life.
                       </p>
                     </div>
@@ -258,7 +258,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
-              <h3 className="font-bold text-5xl text-lightBlue-600">
+              <h3 className="font-bold text-4xl text-lightBlue-600 leading-snug">
                 Try Vigra Home Today and Boost Your Performance
               </h3>
               
@@ -272,27 +272,27 @@ export default function Index() {
                   <span>Buy Vigra Home Now</span>
                 </a>
               </div>
-              <div className="w-1/2 text-center mx-auto mt-10">
+              <div className="md:w-6/12 text-center mx-auto mt-10">
                 <div className="flex flex-wrap items-top mb-6">
-                  <div className="w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-clock mx-auto text-5xl text-lightBlue-600"></i>
                     <span className="text-bold">2 min Purchase</span>
                     </div>
                   </div>
-                  <div className="w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-shipping-fast mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Free Shipping</span>
                     </div>
                   </div>
-                  <div className="w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-vote-yea mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Trusted Product</span>
                     </div>
                   </div>
-                  <div className="w-3/12 px-4 ml-auto">
+                  <div className="w-3/12 ml-auto">
                     <div className="flex flex-wrap">
                     <i class="fa fa-people-carry mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Safe Packaging</span>

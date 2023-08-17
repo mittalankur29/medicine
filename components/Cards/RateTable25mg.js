@@ -11,27 +11,27 @@ import TableDropdown from "components/Dropdowns/TableDropdown.js";
 function Dataprop(prop){
   return (
       <tr>
-        <th className="border-t-0 px-2 md-px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-          <span className="ml-3 font-bold ">
+        <th className="px-2 md-px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4 text-left text-left">
+          <span className="font-bold ">
             {prop.name}
           </span>
         </th>
-        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           {prop.pill}
         </td>
-        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           {prop.savings}
         </td>
-        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           ${prop.price}
         </td>
-        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           ${prop.cost}
         </td>
-        <td className="border-t-0 px-2 md:px-4 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           <div className="flex items-center">
           <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-            Order Now
+            <i className="fa fa-cart-arrow-down text-lightBlue-600 mr-2"></i>Order Now
           </button>
           </div>
         </td>
@@ -39,7 +39,13 @@ function Dataprop(prop){
   )
 }
 
+
+
 export default function CardTable({ color }) {
+  var [rate, setRate] = React.useState(1);
+  var listData = []
+  
+  if (rate == 1) { listData = Data.viagra50 }else{ listData = Data.viagra100}
   return (
     <>
       <div
@@ -48,20 +54,33 @@ export default function CardTable({ color }) {
           (color === "light" ? "bg-white" : "bg-blueGray-700 text-white")
         }
       >
-        <div className="rounded-t mb-0 md-px-4 py-3 border-0">
-          <div className="flex flex-wrap items-center">
-            <div className="relative w-full px-4 max-w-full flex-grow flex-1">
-              <h3
+
+        <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
+            <li class="mr-2">
+                <button
+                onClick={()=> setRate(1)}
                 className={
-                  "font-semibold text-lg " +
-                  (color === "light" ? "text-blueGray-700" : "text-white")
+                  "inline-block p-4 px-6 rounded-t-lg hover:text-gray-600 dark:bg-gray-800 dark:text-blue-500 " +
+                  (rate == 1 ? "active bg-lightBlue-600 text-white" : "bg-blueGray-100 text-black" )
                 }
-              >
-                Viagra 50mg
-              </h3>
-            </div>
-          </div>
-        </div>
+                >
+                  Viagra 50mg
+                  </button>
+            </li>
+            <li class="mr-2">
+                <button
+                 onClick={()=> setRate(2)}
+                  className={
+                    "px-6 inline-block p-4 rounded-t-lg hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300 " +
+                    (rate == 2 ? "active bg-lightBlue-600 text-white" : "bg-blueGray-100 text-black" )
+                  }
+                  >
+                    Viagra 100mg
+                    </button>
+            </li>
+        </ul>
+
+        
         <div className="block w-full overflow-x-auto">
           {/* Projects table */}
           <table className="items-center w-full bg-transparent border-collapse">
@@ -69,68 +88,50 @@ export default function CardTable({ color }) {
               <tr>
                 <th
                   className={
-                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left rounded-l-lg " +
-                    (color === "light"
-                      ? "bg-lightBlue-600 text-white"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left rounded-l-lg bg-lightBlue-600 text-white"
                   }
                 >
                   Product
                 </th>
                 <th
                   className={
-                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
-                    (color === "light"
-                      ? "bg-lightBlue-600 text-white"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left bg-lightBlue-600 text-white"
                   }
                 >
                   Pill
                 </th>
                 <th
                   className={
-                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
-                    (color === "light"
-                      ? "bg-lightBlue-600 text-white"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left bg-lightBlue-600 text-white"
                   }
                 >
                   Saving
                 </th>
                 <th
                   className={
-                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
-                    (color === "light"
-                      ? "bg-lightBlue-600 text-white"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left bg-lightBlue-600 text-white"
                   }
                 >
                   Price
                 </th>
                 <th
                   className={
-                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
-                    (color === "light"
-                      ? "bg-lightBlue-600 text-white"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left bg-lightBlue-600 text-white"
                   }
                 >
                   Discount
                 </th>
                 <th
                   className={
-                    "px-2 md:px-4 align-middle py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-bold text-left " +
-                    (color === "light"
-                      ? "bg-lightBlue-600 text-white"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left rounded-r-lg bg-lightBlue-600 text-white"
                   }
                 >
-                  Order Now
+                
                 </th>
               </tr>
             </thead>
             <tbody>
-              {Data.viagra1000.map((data)=> <Dataprop name={ data.name } pill={data.pill} savings={data.savings} price={data.price} cost={data.cost} />)}
+              {listData.map((data)=> <Dataprop name={ data.name } pill={data.pill} savings={data.savings} price={data.price} cost={data.cost} />)}
             </tbody>
           </table>
         </div>
@@ -148,11 +149,11 @@ CardTable.propTypes = {
 };
 
 const Data = {
-  "viagra1000": [
+  "viagra50": [
       {
           "name": "10 pills",
           "pill": "$4.02",
-          "savings": "0",
+          "savings": "$0.0",
           "price": 40.2,
           "cost": 40.2
       },
@@ -213,150 +214,76 @@ const Data = {
           "cost": 897.26
       }
   ],
-  "viagra650": [
-      {
+  "viagra100": [
+    {
+      "name": "10 pills",
+      "pill": "$8",
+      "savings": "$0",
+      "price": 80,
+      "cost": 80
+  },  
+    {
           "name": "20 pills",
-          "pill": "$1.85",
-          "savings": "0",
-          "price": 37,
-          "cost": 37
+          "pill": "$6",
+          "savings": "40",
+          "price": 160,
+          "cost": 120
       },
       {
           "name": "30 pills",
-          "pill": "$1.60",
-          "savings": "$7.44",
-          "price": 55.5,
-          "cost": 48.06
+          "pill": "$5.5",
+          "savings": "$75",
+          "price": 240,
+          "cost": 165
       },
       {
-          "name": "60 pills",
-          "pill": "$1.35",
-          "savings": "$29.77",
-          "price": 111,
-          "cost": 81.23
+          "name": "40 pills",
+          "pill": "$6",
+          "savings": "$120",
+          "price": 320,
+          "cost": 200
       },
+      {
+        "name": "60 pills",
+        "pill": "$4.65",
+        "savings": "$201",
+        "price": 480,
+        "cost": 279
+    },
       {
           "name": "90 pills",
-          "pill": "$1.27",
-          "savings": "$52.10",
-          "price": 166.5,
-          "cost": 114.4
+          "pill": "$4",
+          "savings": "$360",
+          "price": 720,
+          "cost": 360
       },
       {
           "name": "120 pills",
-          "pill": "$1.23",
-          "savings": "$74.43",
-          "price": 222,
-          "cost": 147.57
+          "pill": "$3.75",
+          "savings": "$510",
+          "price": 960,
+          "cost": 450
       },
       {
           "name": "180 pills",
-          "pill": "$1.19",
-          "savings": "$119.10",
-          "price": 333,
-          "cost": 213.9
+          "pill": "$3.25",
+          "savings": "$855",
+          "price": 1440,
+          "cost": 585
       },
       {
           "name": "270 pills",
-          "pill": "$1.16",
-          "savings": "$186.09",
-          "price": 499.5,
-          "cost": 313.41
+          "pill": "$2.75",
+          "savings": "$1417.5",
+          "price": 2160,
+          "cost": 742.5
       },
       {
           "name": "360 pills",
-          "pill": "$1.15",
-          "savings": "$253.08",
-          "price": 666,
-          "cost": 412.92
-      }
-  ],
-  "viagra500": [
-      {
-          "name": "30 pills",
-          "pill": "$1.01",
-          "savings": "0",
-          "price": 30.15,
-          "cost": 30.15
-      },
-      {
-          "name": "60 pills",
-          "pill": "$0.71",
-          "savings": "$17.43",
-          "price": 60.3,
-          "cost": 42.87
-      },
-      {
-          "name": "90 pills",
-          "pill": "$0.62",
-          "savings": "$34.86",
-          "price": 90.45,
-          "cost": 55.59
-      },
-      {
-          "name": "180 pills",
-          "pill": "$0.52",
-          "savings": "$87.16",
-          "price": 180.9,
-          "cost": 93.74
-      },
-      {
-          "name": "240 pills",
-          "pill": "$0.50",
-          "savings": "$122.03",
-          "price": 241.2,
-          "cost": 119.17
-      },
-      {
-          "name": "360 pills",
-          "pill": "$0.47",
-          "savings": "$191.75",
-          "price": 361.8,
-          "cost": 170.05
-      }
-  ],
-  "viagra250": [
-      {
-          "name": "60 pills",
-          "pill": "$0.56",
-          "savings": "0",
-          "price": 33.8,
-          "cost": 33.8
-      },
-      {
-          "name": "90 pills",
-          "pill": "$0.50",
-          "savings": "$6.08",
-          "price": 50.69,
-          "cost": 44.61
-      },
-      {
-          "name": "120 pills",
-          "pill": "$0.46",
-          "savings": "$12.17",
-          "price": 67.59,
-          "cost": 55.42
-      },
-      {
-          "name": "180 pills",
-          "pill": "$0.43",
-          "savings": "$24.33",
-          "price": 101.38,
-          "cost": 77.05
-      },
-      {
-          "name": "270 pills",
-          "pill": "$0.41",
-          "savings": "$42.58",
-          "price": 152.08,
-          "cost": 109.5
-      },
-      {
-          "name": "360 pills",
-          "pill": "$0.39",
-          "savings": "$60.83",
-          "price": 202.77,
-          "cost": 141.94
+          "pill": "$2.5",
+          "savings": "$1980",
+          "price": 2880,
+          "cost": 900
       }
   ]
 }
