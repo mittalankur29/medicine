@@ -31,7 +31,7 @@ export default function Index() {
             <div className="w-full lg:w-6/12 px-4 mr-auto my-auto mt-6">
               <div className="pr-12">
                 <h1 className="text-lightBlue-600 font-bold text-6xl">
-                  VIGRA HOME
+                  VIAGRA HOME
                 </h1>
                 <div class="flex flex-wrap items-top mb-6">
                   <div class="w-4/12">
@@ -80,7 +80,7 @@ export default function Index() {
 
       <section id="orderList" className="pb-40 relative bg-white">
         <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
-                Vigra Home Dosages
+                Viagra Home Dosage
               </h2>
         <div className="container table-card-border md:border-30 mx-auto mt-8">
           <div className="home-outline md:border-20 flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 md:px-10 relative">
@@ -91,7 +91,7 @@ export default function Index() {
         </div>
         <div className="container mx-auto mt-32">
         <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
-                    Benifit of VIGRA Home
+                    Benifit of VIAGRA Home
                   </h2>
           <div className="flex flex-wrap items-center">
             <div className="w-full px-4">
@@ -144,7 +144,7 @@ export default function Index() {
                       </div>
                       <h6 className="text-2xl mb-1 font-bold text-lightBlue-600">INCREASED PENIS SIZE</h6>
                       <p className="mb-4 text-blueGray-500 text-xl px-12">
-                      Regular use of Vigra Home may lead to successive delivery of blood to the penis, which may help increase penis size.
+                      Regular use of Viagra Home may lead to successive delivery of blood to the penis, which may help increase penis size.
                       </p>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ export default function Index() {
                       SUPPORT TESTOTERONE
                       </h6>
                       <p className="mb-4 text-blueGray-500 text-xl px-12">
-                        Vigra Home formula contains natural testosterone enhancing ingredients for an enhanced sex life.
+                        Viagra Home formula contains natural testosterone enhancing ingredients for an enhanced sex life.
                       </p>
                     </div>
                   </div>
@@ -259,7 +259,7 @@ export default function Index() {
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
               <h3 className="font-bold text-4xl text-lightBlue-600 leading-snug">
-                Try Vigra Home Today and Boost Your Performance
+                Try Viagra Home Today and Boost Your Performance
               </h3>
               
               <div className="sm:block flex flex-col mt-10">
@@ -269,7 +269,7 @@ export default function Index() {
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i class="fa fa-cart-arrow-down mr-2 text-white"></i>
-                  <span>Buy Vigra Home Now</span>
+                  <span>Buy Viagra Home Now</span>
                 </a>
               </div>
               <div className="md:w-6/12 text-center mx-auto mt-10">

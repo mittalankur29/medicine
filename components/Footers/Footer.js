@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl text-white font-bold">Vigra Home</h4>
+              <h4 className="text-3xl text-white font-bold">Viagra Home</h4>
               <h5 className="text-lg mt-0 mb-2 text-white">
                 Make your sex life great again
               </h5>
@@ -90,7 +90,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-white font-bold py-1">
-                Copyright © {new Date().getFullYear()} Vigra Home
+                Copyright © {new Date().getFullYear()} Viagra Home
               </div>
             </div>
           </div>

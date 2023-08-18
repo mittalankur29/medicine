@@ -22,7 +22,7 @@ function Dataprop(prop){
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           {prop.savings}
         </td>
-        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
+        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4 text-red-500 line-through">
           ${prop.price}
         </td>
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
@@ -30,7 +30,7 @@ function Dataprop(prop){
         </td>
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           <div className="flex items-center">
-          <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
             <i className="fa fa-cart-arrow-down text-lightBlue-600 mr-2"></i>Order Now
           </button>
           </div>
@@ -238,7 +238,7 @@ const Data = {
       },
       {
           "name": "40 pills",
-          "pill": "$6",
+          "pill": "$5",
           "savings": "$120",
           "price": 320,
           "cost": 200
