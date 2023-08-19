@@ -22,11 +22,8 @@ function Dataprop(prop){
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           {prop.savings}
         </td>
-        <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4 text-red-500 line-through">
-          ${prop.price}
-        </td>
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
-          ${prop.cost}
+        <span className="text-red-500 line-through">${prop.price}</span> ${prop.cost}
         </td>
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           <div className="flex items-center">
@@ -113,13 +110,6 @@ export default function CardTable({ color }) {
                   }
                 >
                   Price
-                </th>
-                <th
-                  className={
-                    "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left bg-lightBlue-600 text-white"
-                  }
-                >
-                  Discount
                 </th>
                 <th
                   className={
@@ -225,7 +215,7 @@ const Data = {
     {
           "name": "20 pills",
           "pill": "$6",
-          "savings": "40",
+          "savings": "$40",
           "price": 160,
           "cost": 120
       },

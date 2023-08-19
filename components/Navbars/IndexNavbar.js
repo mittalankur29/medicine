@@ -19,7 +19,7 @@ export default function Navbar(props) {
     <>
       <nav
       className={
-        "top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-lightBlue-600 shadow " +
+        "transition ease-out top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-lightBlue-600 shadow " +
         (scroll > 20 ? "block" : "hidden")
         }
       >
@@ -43,7 +43,7 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex flex-row list-none mr-auto">
-              <li className="flex items-center">
+              <li className="flex items-center animate-pulseb">
                 <a
                   className="hover:text-blueGray-300 text-white py-4 lg:py-2 flex items-center text-base font-bold"
                   href="sms:[2134782761]&body=[Hi Viagra Home, I am interested in buying Viagra Home. Ho can I get started?]"
@@ -56,7 +56,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
-                  className="bg-white hover:text-lightBlue-600 text-blueGray-700 active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  className="bg-white hover:text-lightBlue-600 text-blueGray-700 active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded-full shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   href="/#orderList"
                 >
                   <i className="fas fa-cart-arrow-down"></i> Buy Viagra Home Now

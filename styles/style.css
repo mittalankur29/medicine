@@ -4,12 +4,17 @@
 .text-blue-main {
     background-color: #633df6;
 }
-.table-card-border {
-    border-color: #0284c7;
-    border-radius: 100px;
+
+
+@media (min-width: 640px) {
+    .table-card-border {
+        border-color: #0284c7;
+        border-radius: 100px;
+        margin-top: 2rem;
+    }
+    .home-outline {
+        width: 100%;
+        border-color: #228ec0;
+        border-radius: 70px;
+      }
 }
-.home-outline {
-    width: 100%;
-    border-color: #228ec0;
-    border-radius: 70px;
-  }

@@ -59,15 +59,15 @@ export default function Index() {
         </div>
         </div> */}
 
-      <section className="pb-20 relative">
+      <section className="pb-16 relative">
         
         <div className="container mx-auto items-center flex flex-wrap">
         
-          <div className="w-full text-center">
+          <div className="animate-pulseb w-full text-center">
           <div className="mt-12">
                   <a
                     href="#orderList"
-                    className="animate-pulseb get-started text-white font-bold px-12 py-8 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    className="get-started text-white font-bold px-12 py-8 rounded-full outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-600 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   >
                     Buy Now Viagra Home
                   </a>
@@ -78,19 +78,19 @@ export default function Index() {
 
         </section>
 
-      <section id="orderList" className="pb-40 relative bg-white">
+      <section id="orderList" className="pb-20 relative bg-white">
         <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
                 Viagra Home Dosage
               </h2>
-        <div className="container table-card-border md:border-30 mx-auto mt-8">
+        <div className="container table-card-border md:border-30 mx-auto">
           <div className="home-outline md:border-20 flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-2 md:px-10 relative">
                 <div className="w-full mt-6">
                   <RateTable25 />
                 </div>
           </div>
         </div>
-        <div className="container mx-auto mt-32">
-        <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase">
+        <div className="container mx-auto mt-24">
+        <h2 className="text-3xl md:text-5xl font-bold text-lightBlue-600 text-center uppercase md:mb-4">
                     Benifit of VIAGRA Home
                   </h2>
           <div className="flex flex-wrap items-center">
@@ -170,71 +170,62 @@ export default function Index() {
             </div>
           </div>
         </div>
-
-        <div className="container mx-auto overflow-hidden pb-20 mt-48">
-          <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase">
-          <div className="text-blueGray-500 p-4 text-center inline-flex items-center justify-center w-16 h-16 rounded-full bg-white">
-              <img
-                  alt="..."
-                  src="/img/icons/icon-3.svg"
-                  className="w-full"
-                />
-              </div>
-              Experience Erectile Dysfunction in your Sex Life?
-          </h2>
+        <div className="container mx-auto overflow-hidden py-20 mt-24 bg-lightBlue-600">
+        <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
+          Trusted by over one million men in UK and US for their ereection problem
+        </h2>
+        </div>
+        <div className="container mx-auto overflow-hidden pb-20">
+          
           <div className="flex flex-wrap items-center">
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-              <img
-                  alt="..."
-                  src="/img/icons/icon-10.svg"
-                  className="w-full"
-                />
-              </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-              52% of men experience some kind of erectile dysfunction throughout their life
-              </h3>
+            <div className="w-full md:w-4/12 py-12 px-12 md:px-4 ml-auto mr-auto">
+            <h2 className="text-3xl font-bold text-lightBlue-600 text-center uppercase md:mb-4">
+              Boost your relationship with Viagra Home
+          </h2>
+              <p className="text-2xl mb-2 font-normal leading-normal">
+              Experience the advantages of Viagra Home that extend beyond the physical realm. From boosted self-assurance to enhanced communication, explore how this medication can revolutionize your relationship and bring you and your partner closer together.
+              </p>
             </div>
 
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 w-full md:mt-0">
                 <img
                   alt="..."
-                  src="/img/img-1.svg"
+                  src="/img/img-7.jpg"
                   className="w-full"
                 />
               </div>
             </div>
           </div>
-
-          <div className="flex flex-wrap items-center pt-32">
+          <div className="container mx-auto overflow-hidden py-20 bg-lightBlue-600">
+        <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
+          Trusted by over one million men in UK and US for their ereection problem
+        </h2>
+        </div>
+          <div className="flex flex-wrap items-center">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
             <div className="relative flex flex-col min-w-0 w-full md:mt-0">
                 <img
                   alt="..."
-                  src="/img/img-2.svg"
+                  src="/img/img-8.jpg"
                   className="w-full"
                 />
               </div>
             </div>
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-              <img
-                  alt="..."
-                  src="/img/icons/icon-10.svg"
-                  className="w-full"
-                />
-              </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-              Erection problems can impact any relationship, but treating them has never been easier now medications are over the counter
-              </h3>
+            <h3 className="text-3xl font-bold text-lightBlue-600 text-center uppercase md:mb-4 mt-4">
+              How does Viagra Home works?
+            </h3>
+              <p className="text-2xl mb-2 font-normal leading-normal">
+              The primary benefit of Viagra is its ability to improve erectile function. Men with ED often struggle to achieve and maintain firm erections necessary for satisfying sexual activity. Viagra works by increasing blood flow to the penis, facilitating the natural process of achieving and sustaining an erection when sexual arousal occurs.
+              </p>
             </div>
           </div>
         </div>        
       </section>
 
-      <section className="pb-16 bg-lightBlue-600 relative pt-32">
+      <section className="pb-16 bg-lightBlue-600 relative pt-32 px-4">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -262,7 +253,7 @@ export default function Index() {
                 Try Viagra Home Today and Boost Your Performance
               </h3>
               
-              <div className="sm:block flex flex-col mt-10">
+              <div className="sm:block flex flex-col mt-10 animate-pulseb">
                 <a
                   href="#orderList"
                   target="_blank"
@@ -274,25 +265,25 @@ export default function Index() {
               </div>
               <div className="md:w-6/12 text-center mx-auto mt-10">
                 <div className="flex flex-wrap items-top mb-6">
-                  <div className="w-3/12 ml-auto">
+                  <div className="w-1/2 md:w-3/12 ml-auto p-4">
                     <div className="flex flex-wrap">
                     <i class="fa fa-clock mx-auto text-5xl text-lightBlue-600"></i>
                     <span className="text-bold">2 min Purchase</span>
                     </div>
                   </div>
-                  <div className="w-3/12 ml-auto">
+                  <div className="w-1/2 md:w-3/12 ml-auto p-4">
                     <div className="flex flex-wrap">
                     <i class="fa fa-shipping-fast mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Free Shipping</span>
                     </div>
                   </div>
-                  <div className="w-3/12 ml-auto">
+                  <div className="w-1/2 md:w-3/12 ml-auto p-4">
                     <div className="flex flex-wrap">
                     <i class="fa fa-vote-yea mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Trusted Product</span>
                     </div>
                   </div>
-                  <div className="w-3/12 ml-auto">
+                  <div className="w-1/2 md:w-3/12 ml-auto p-4">
                     <div className="flex flex-wrap">
                     <i class="fa fa-people-carry mx-auto text-5xl text-lightBlue-600"></i>
                     <span>Safe Packaging</span>
