@@ -1,5 +1,6 @@
 //https://www.w3schools.com/react/showreact.asp?filename=demo2_react_list1
 import React from "react";
+import Link from "next/link";
 import PropTypes from "prop-types";
 //import Data from "../../data/data.json";
 // components
@@ -27,9 +28,15 @@ function Dataprop(prop){
         </td>
         <td className="px-2 md:px-4 align-middle text-xs md:text-2xl whitespace-nowrap p-4">
           <div className="flex items-center">
+          <Link
+            href={{
+              pathname:'/order',
+              query:prop
+            }}>
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
             <i className="fa fa-cart-arrow-down text-lightBlue-600 mr-2"></i>Order Now
           </button>
+          </Link>
           </div>
         </td>
       </tr>
@@ -116,7 +123,7 @@ export default function CardTable({ color }) {
                     "px-2 md:px-4 align-middle py-3 text-xs md:text-2xl whitespace-nowrap font-bold text-left rounded-r-lg bg-lightBlue-600 text-white"
                   }
                 >
-                
+                  
                 </th>
               </tr>
             </thead>
@@ -151,7 +158,7 @@ const Data = {
           "name": "20 pills",
           "pill": "$3.23",
           "savings": "$15.71",
-          "price": 80.4,
+          "price": 80.40,
           "cost": 64.69
       },
       {

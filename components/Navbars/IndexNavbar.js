@@ -14,7 +14,6 @@ export default function Navbar(props) {
     window.addEventListener("scroll", handleScroll); 
     return () => window.removeEventListener("scroll", handleScroll);
   });
-  console.log(scroll)
   return (
     <>
       <nav

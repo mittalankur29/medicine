@@ -198,9 +198,43 @@ export default function Index() {
             </div>
           </div>
           <div className="container mx-auto overflow-hidden py-20 bg-lightBlue-600">
-        <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
-          Trusted by over one million men in UK and US for their ereection problem
-        </h2>
+          <div className="md:w-8/12 text-center mx-auto mt-10">
+                <div className="flex flex-wrap items-top mb-6">
+                  <div className="w-1/2 md:w-3/12 ml-auto p-8">
+                    <div className="flex flex-col text-center">
+                    <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
+                    10K
+                  </h2>
+                  <span className="font-extrabold text-white text-center uppercase leading-snug">Customer</span>
+                    </div>
+                  </div>
+                  <div className="w-1/2 md:w-3/12 ml-auto p-8">
+                  <div className="flex flex-col text-center">
+                    <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
+                    100K
+                  </h2>
+                  <span className="font-extrabold text-white text-center uppercase leading-snug">Pills Sold</span>
+                    </div>
+                  </div>
+                  <div className="w-1/2 md:w-3/12 ml-auto p-8">
+                  <div className="flex flex-col text-center">
+                    <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
+                    10+
+                  </h2>
+                  <span className="font-extrabold text-white text-center uppercase leading-snug">Country</span>
+                    </div>
+                  </div>
+                  <div className="w-1/2 md:w-3/12 ml-auto p-8">
+                  <div className="flex flex-col text-center">
+                    <h2 className="md:px-4 text-5xl font-extrabold text-white text-center uppercase leading-snug">
+                    7
+                  </h2>
+                  <span className="font-extrabold text-white text-center uppercase leading-snug">Days Delivery</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
         </div>
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">

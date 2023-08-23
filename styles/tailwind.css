@@ -2594,6 +2594,10 @@ select {
   opacity: .8;
 }
 
+.opacity-90 {
+  opacity: .9;
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3591,6 +3595,10 @@ select {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-32 {
