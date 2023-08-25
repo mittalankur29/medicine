@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -26,11 +27,22 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl text-white font-bold">Viagra Home</h4>
+            <Link href="/">
+              <a
+                className="text-white text-xl font-bold leading-relaxed inline-block whitespace-nowrap uppercase"
+                href="/"
+              >
+                <img
+                  className="sm:mt-0 h-10"
+                  src="/img/brand/logo-3.png"
+                  alt="viagra home"
+                />
+              </a>
+            </Link>
               <h5 className="text-lg mt-0 mb-2 text-white">
                 Make your sex life great again
               </h5>
-              <div className="mt-6 lg:mb-0 mb-6">
+              {/* <div className="mt-6 lg:mb-0 mb-6">
                 <button
                   className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
@@ -43,7 +55,7 @@ export default function Footer() {
                 >
                   <i className="fab fa-whatsapp"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">

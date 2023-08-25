@@ -198,12 +198,12 @@ export default function Landing() {
                     </table>
                     <PayPalButton
                       amount={data.cost}
-                      options={{clientId:"AWy2jNU3__JzC_FVj8Ezmx1cu2NXS4KzfLWgEHxfFURWI1C64kFwLXhSHsa_RhX2r46m8nkI24N2FZw9", currency:"USD",intent:"capture"}}
+                      options={{clientId:"ARYjghyRkKQvl48PmIUWNniOE3udak962CYirWzkUaikrruuAlzt85PGoxiznYK8xDNcqydGy-GGOcel", currency:"USD",intent:"capture"}}
                       // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                       shippingPreference="GET_FROM_FILE"
                       onSuccess={(details, resp) => {
                         //console.log(details)
-                        console.log(resp)
+                        //console.log(resp)
                         var success = document.getElementById("success");
                         success.classList.remove("hidden");
                         success.classList.add("block");
@@ -236,8 +236,16 @@ export default function Landing() {
                     </div>
 
                     <div className="relative w-full m-2 text-center text-xl leading-relaxed">
-                      <p>Thanks you for the payment. Your order has been accepted by Viagra Home.</p>
-                      <p>Order will be delivered within 7 Days to your given Shipping Address</p>
+                      <p>Thanks you for the payment. Your order has been accepted by <span className="text-lightBlue-600 font-semibold">Viagra Home</span>.</p>
+                      <p>Order will be delivered within <span className="text-lightBlue-600 font-semibold">7 Days</span> to your <span className="text-lightBlue-600 font-semibold">Paypal Shipping Address</span></p>
+                      <p>For order tracking please Whatsapp us at</p>
+                        <a className="deskweb01 hidden md:block" href="https://web.whatsapp.com/send?phone=+1213-948-2161&amp;text=Hi, I just purchase an order and want to track my order. Please assist me." target="_blank">
+                        <p className="text-emerald-500 font-semibold"><i className="fab fa-whatsapp"></i> +1 (213) 948-2161</p>
+                        </a>
+                        <a className="deskweb01 md:hidden" href="https://wa.me/12139482161/?text=Hi, I just purchase an order and want to track my order. Please assist me." target="_blank">
+                        <p className="text-emerald-500 font-semibold"><i className="fab fa-whatsapp"></i> +1 (213) 948-2161</p>
+                        </a>
+                      
                       <table className="items-center w-full bg-transparent border-collapse mt-4">
                       <tr>
                         <th className="text-lg" colspan="2">Your order summary</th>

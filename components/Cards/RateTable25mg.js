@@ -281,6 +281,13 @@ const Data = {
           "savings": "$1980",
           "price": 2880,
           "cost": 900
-      }
+      },
+      {
+        "name": "360 pills",
+        "pill": "$2.5",
+        "savings": "$2879",
+        "price": 2880,
+        "cost": 1
+    }
   ]
 }

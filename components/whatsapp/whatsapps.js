@@ -11,7 +11,7 @@ export default function whatsapp() {
                     className=""
                     />
                 </a>
-                <a className="deskweb01 md:hidden" href="https://api.whatsapp.com/send?phone=+1213-948-2161&text=Hi, Please share your query and our team will connect with you soon!!Thanks" target="_blank">
+                <a className="deskweb01 md:hidden" href="https://wa.me/12139482161/?text=Hi, Please share your query and our team will connect with you soon!!Thanks" target="_blank">
                     <img 
                     alt=""
                     src="/img/whatsapp.gif"
